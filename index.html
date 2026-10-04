@@ -24,6 +24,9 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+
     <!-- Flaticon -->
     <link rel="stylesheet" href="./css/flaticon/flaticon.css" />
 
@@ -248,60 +251,173 @@
         <section class="features">
             <div class="container py-115">
                 <div class="features__content-left">
-                    <p>Our Features</p>
-                    <h2>
-                        Behind The Story<br>
-                        Of Samar Agency
-                    </h2>
+                    <div class="wow animate__animated animate__fadeInLeft animated" data-wow-duration="2s"
+                        data-wow-delay="0.2s"
+                        style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <p>Our Features</p>
+                        <h2>
+                            Behind The Story<br>
+                            Of Samar Agency
+                        </h2>
+                    </div>
                     <div class="features__group">
-                        <div class="features__item">
+                        <div class="features__item wow animate__animated animate__fadeInRight animated"
+                            data-wow-duration="2s" data-wow-delay="0.4s"
+                            style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeInRight;">
                             <div class="features__bg">
                                 <i class="flaticon-idea"></i>
                                 <div>
                                     <h3>Idea & Analysis Gathering</h3>
                                     <p>
-                                        Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet
-                                        consequat augue.
+                                        Maecenas laoreet efficitur sagittis. Aliquam eleifend <br>
+                                        nisl leo, sit amet consequat augue.
                                     </p>
                                 </div>
                             </div>
-                            <div class="features__item">
-                                <div class="features__bg">
-                                    <i class="flaticon-coding"></i>
-                                    <div>
-                                        <h3>Design & Developing</h3>
-                                        <p>
-                                            Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet
-                                            consequat augue.
-                                        </p>
-                                    </div>
+                        </div>
+                        <div class="features__item wow animate__animated animate__fadeInRight animated"
+                            data-wow-duration="2s" data-wow-delay="0.6s"
+                            style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: fadeInRight;">
+                            <div class="features__bg">
+                                <i class="flaticon-coding"></i>
+                                <div>
+                                    <h3>Design & Developing</h3>
+                                    <p>
+                                        Maecenas laoreet efficitur sagittis. Aliquam eleifend <br>
+                                        nisl leo, sit amet consequat augue.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="features__item">
-                                <div class="features__bg">
-                                    <i class="flaticon-rocket"></i>
-                                    <div>
-                                        <h3>Testing & Lunching</h3>
-                                        <p>
-                                            Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet
-                                            consequat augue.
-                                        </p>
-                                    </div>
+                        </div>
+                        <div class="features__item wow animate__animated animate__fadeInRight animated"
+                            data-wow-duration="2s" data-wow-delay="0.8s"
+                            style="visibility: visible; animation-duration: 2s; animation-delay: 0.8s; animation-name: fadeInRight;">
+                            <div class="features__bg">
+                                <i class="flaticon-rocket"></i>
+                                <div>
+                                    <h3>Testing & Lunching</h3>
+                                    <p>
+                                        Maecenas laoreet efficitur sagittis. Aliquam eleifend <br>
+                                        nisl leo, sit amet consequat augue.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="features__content-right">
-                        <img src="./imgs/pic3.png" alt="Features">
-                    </div>
+                </div>
+                <div class="features__content-right">
+                    <img src="./imgs/pic3.png" alt="Features">
                 </div>
         </section>
 
         <!-- Portfolio -->
-        <section class="portfolio"></section>
+        <section class="portfolio">
+            <div class="container py-115">
+                <div class="title">
+                    <p>Portfolio</p>
+                    <h2>Our Latest Work</h2>
+                </div>
+                <div class="portfolio__content">
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <img src="./imgs/pic1_2.jpg" alt="Latest work 1">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__item-icon">
+                                <a href="./imgs/pic1_2.jpg" data-fancybox="gallery" data-caption="Design 1">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <img src="./imgs/pic2_1.jpg" alt="Latest work 2">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__item-icon">
+                                <a href="./imgs/pic2_1.jpg" data-fancybox="gallery" data-caption="Design 2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp animate__delay-1s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <img src="./imgs/pic3_1.jpg" alt="Latest work 3">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__item-icon">
+                                <a href="./imgs/pic3_1.jpg" data-fancybox="gallery" data-caption="Design 3">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp animate__delay-1s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <img src="./imgs/pic4.jpg" alt="Latest work 4">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__item-icon">
+                                <a href="./imgs/pic4.jpg" data-fancybox="gallery" data-caption="Design 4">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp animate__delay-2s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <img src="./imgs/pic5.jpg" alt="Latest work 5">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__item-icon">
+                                <a href="./imgs/pic5.jpg" data-fancybox="gallery" data-caption="Design 5">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item  wow animate__animated animate__fadeInUp animate__delay-1s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <img src="./imgs/pic6.jpg" alt="Latest work 6">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__item-icon">
+                                <a href="./imgs/pic6.jpg" data-fancybox="gallery" data-caption="Design 6">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__item-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Blog -->
-        <section class="blog"></section>
+        <section class="blog">
+            <div class="container py-115">
+                <div class="title">
+                    <p>Our Blog</p>
+                    <h2>Latest News & Blog</h2>
+                </div>
+                <div class="blog__content">
+
+                </div>
+            </div>
+        </section>
 
         <!-- Subscribe -->
         <section class="subscribe"></section>
@@ -334,6 +450,13 @@
                 delay: 10,
                 time: 2000
             });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
         });
     </script>
 </body>
