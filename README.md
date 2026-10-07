@@ -1,6 +1,6 @@
 # Samar
 
-Bài tập **HTML5 & CSS3 làm theo mầu [https://cybersamar-v2.vercel.app/](https://cybersamar-v2.vercel.app/)**
+Bài tập **HTML5 & CSS3** làm theo mẫu **[https://cybersamar-v2.vercel.app/](https://cybersamar-v2.vercel.app/)**
 
 ## Cấu trúc folder
 
