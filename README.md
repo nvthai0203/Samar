@@ -1,6 +1,6 @@
 # Samar
 
-Trang tĩnh giới thiệu agency Samar. Mở `index.html` trên trình duyệt để xem.
+Bài tập **HTML5 & CSS3 làm theo mầu [https://cybersamar-v2.vercel.app/](https://cybersamar-v2.vercel.app/)**
 
 ## Cấu trúc folder
 
@@ -30,3 +30,4 @@ Samar/
     │   └── jquery.countup.js
     └── other/
 ```
+

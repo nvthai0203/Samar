@@ -113,6 +113,14 @@ a:hover span {
 
 
 /* BANNER */
+.banner {
+  padding-top: 180px;
+  overflow: hidden;
+  background-image: url(../imgs/pic2.png);
+  background-position: top;
+  background-size: 100%;
+}
+
 .banner__left .title p {
   color: #f55f8d;
   font-size: 22px;
@@ -157,6 +165,12 @@ a:hover span {
 }
 
 /* DIGITAL */
+.digital {
+  background-image: url(../imgs/bg2.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .digital .container {
   flex-direction: column;
   align-items: stretch;
@@ -234,6 +248,15 @@ a:hover span {
 }
 
 /* ABOUT US */
+.about-us {
+  background-image: url(../imgs/bg15.png);
+  background-size: 100%;
+  background-position: center-right;
+  background-repeat: no-repeat;
+  padding-bottom: 85px;
+  overflow: hidden;
+}
+
 .about-us .container {
   flex-direction: column;
   align-items: stretch;
@@ -296,6 +319,14 @@ a:hover span {
 }
 
 /* COUNTER */
+.counter {
+  background-image: url(../imgs/bg14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0 50px;
+  
+}
+
 .counter .container {
   flex-direction: column;
   align-items: stretch;
@@ -342,6 +373,15 @@ a:hover span {
 }
 
 /* FEATURES */
+.features {
+  background-image: url(../imgs/bg2.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
 .features__content-left p:first-child {
   font-weight: 600;
   font-size: 22px;
@@ -462,6 +502,12 @@ a:hover span {
 }
 
 /* PORTFOLIO */
+.portfolio {
+  background-image: url(../imgs/bg17.png);
+  background-size: cover;
+  background-position: top-center;
+  overflow: hidden;
+}
 
 .portfolio .title p {
   color: #f55f8d;
@@ -636,6 +682,13 @@ a:hover span {
 
 
 /* BLOG */
+.blog {
+  background-image: url(../imgs/bg16.png);
+  background-size: cover;
+  background-position: top-center;
+  padding-bottom: 50px;
+}
+
 .blog .container {
   flex-direction: column;
   align-items: stretch;
